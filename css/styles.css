@@ -7,6 +7,9 @@
  justify-content: space-between;
  transition: var(--transition-base);
 }
+.logo img{
+    height:50px;
+}
 .principal ul {
     display: flex;
     list-style: none;
