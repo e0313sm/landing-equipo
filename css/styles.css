@@ -146,3 +146,32 @@ align-items: center;
 .social-icons img:hover {
   transform: scale(1.2);
 }
+
+.hero {
+  padding: 60px 30px;
+  background: #111;
+  color: #fff;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
